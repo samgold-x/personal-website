@@ -4,10 +4,14 @@
   {% assign metadata_styles = 'd-flex flex-items-center mb-3' %}
 {% endif %}
 
-<img src="{{ user.avatar_url }}" class="circle mb-3" style="max-width: 150px;">
-<h1 class="{% if site.style == 'dark' %}text-white{% endif %} mb-2 lh-condensed">{% if user.name %}{{ user.name }}{% else %}{{ user.login }}{% endif %}</h1>
+<img src=profilePic.jpeg class="circle mb-3" style="max-width: 150px;">
+<h1 class="{% if site.style == 'dark' %}text-white{% endif %} mb-2 lh-condensed">Sam Gold</h1>
 <p class="mb-3 f4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">
-  {{ user.bio }}
+  I’m a Product Manager at Asana, where I spend my time building a product that empowers teams to do great things together.<br> <br> 
+ Before Asana, I spent time at Stanford working towards B.S. and M.S. degrees in Management Science and Engineering. At Stanford, I spent time as CEO of nonprofit organization Governor’s Corner Dining, where I managed 4 FTE and dozens of part-time foodservice employees. I also spent time on the product team at Axon and in supply chain at Forbes Marshall in Pune, India.<br> <br> 
+Before Stanford, I ran a subscription box company called Yumvelope, shipping a monthly selection of awesome snacks that subscribers loved. Less than 0.5% of subscribers returned their orders and we received press mentions in The New York Times, Entrepreneur, and Sierra.<br> <br> 
+
+If you’d like to connect, shoot me an email: goldsamb [at] gmail.com!
 </p>
 
 {% if include.metadata %}
